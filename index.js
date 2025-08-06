@@ -6,7 +6,7 @@ app.use(cors());
 
 // Simple API endpoint
 app.get("/", (req, res) => {
-  res.json({ message: "Hello World" });
+  res.json({ message: "Hello Prince" });
 });
 
 const PORT = process.env.PORT || 3000;
